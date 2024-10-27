@@ -1,4 +1,4 @@
-# QGIS_Mean_Bedding_Dip
+# QGIS Mean Bedding (Dip direction & Dip)
 ### Calculates the mean dip values using Fisher statistics and the Bingham Axial Distribution.
 
 Each average is computed for the points contained within each polygon, provided there is more than one data point.
