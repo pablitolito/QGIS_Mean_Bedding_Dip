@@ -43,10 +43,12 @@ def fisher_mean(dir):
     alpha95 = deg * np.arccos(cosAlfa)
 
     AzMean = deg * np.arctan2(Y, X)
+    '''
     if X < 0.0:
         AzMean += 180.0
     elif Y < 0.0:
         AzMean += 360.0
+    '''
     IncMean = deg * np.arcsin(Z / R)
     
     fisher_mean = [AzMean, IncMean, k, alpha95]
